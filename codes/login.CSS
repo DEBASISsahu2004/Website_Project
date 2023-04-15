@@ -1,0 +1,67 @@
+body{
+    background-image: url("../Images/login\ bg.png");
+    background-repeat: repeat;
+    background-size: 40px;
+    background-color: rgba(30, 255, 248, 0.523);
+    word-spacing: 2px;
+}
+
+.login{
+    margin-top: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+
+.login .detail{
+    margin-left: 20px;
+    width: 450px;
+    height: 525px;
+    padding: 15px;
+    background: rgba(245, 245, 245, 0.829);
+    color: crimson;
+    letter-spacing: 1px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.481);
+    border-radius: 15px;
+}
+
+.login .detail h1{
+    font-size: 50px;
+    letter-spacing: 9px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.login .detail p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.login .detail .data{
+    border: solid turquoise 2px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 2px;
+    letter-spacing: 1px;
+}
+
+.login .detail .submit{
+    width: 100%;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: black;
+    border: solid turquoise 3px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(245, 245, 245, 0.615);
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login .detail .submit:hover{
+    color: white;
+    background-color: turquoise;
+}
